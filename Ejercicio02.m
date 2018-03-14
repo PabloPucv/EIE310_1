@@ -10,4 +10,4 @@ for i = 2 : 41;
     vf(i) = (1-a) * vi + a * vf(i-1);
 end
 close; stem(t, vf);
-xlabel('seg'); grid
+xlabel('seg'); grid;
